@@ -1,44 +1,7 @@
-# CFISD Rezoning Impact Analysis
-
-An independent data science research project analyzing the statistical relationship between school rezoning decisions and academic outcomes in the **Cypress-Fairbanks Independent School District (CFISD)**, Cypress, Texas.
-
-## Research Question
-
-> Does school rezoning in CFISD significantly affect STAAR test performance and demographic composition, after controlling for socioeconomic factors?
-
-## Methodology
-
-- **Difference-in-Differences (DiD)** regression to estimate causal effects
-- Compared rezoned schools (treatment) vs. non-rezoned schools (control) across 2016–2023
-- Controlled for % economically disadvantaged students and median household income
-
-## Features
-
-- 📈 STAAR score trend analysis (treatment vs. control)
-- 📊 Demographic shift tracking across school levels
-- 📉 Regression coefficient visualization
-- 🗺️ School-level comparison table
-- 🧮 Interactive rezoning impact simulator
-
-## Data Sources
-
-- [Texas Education Agency](https://tea.texas.gov) — STAAR results, school demographics
-- [CFISD District Reports](https://www.cfisd.net) — Rezoning documents
-- [U.S. Census Bureau](https://www.census.gov) — Median income by tract
-
-> ⚠️ The current version uses simulated data. Replace `data/staar_scores.csv` with real TEA exports for live research.
-
-## Setup
-
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py
-```
-
-## Live Dashboard
-
-[View on Streamlit Community Cloud](https://your-app-url.streamlit.app)
-
----
-
-*Independent Research · Cypress, TX · 2024*
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+statsmodels
